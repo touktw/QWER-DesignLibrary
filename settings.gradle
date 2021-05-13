@@ -1,4 +1,4 @@
-rootProject.name = "QWER Design Library"
+rootProject.name = "QWER Library"
 include ':app'
 include ':design'
 include ':base'

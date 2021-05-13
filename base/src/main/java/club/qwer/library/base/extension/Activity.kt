@@ -6,22 +6,12 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.appcompat.app.AppCompatActivity
 
-fun ComponentActivity.startActivityForResult(resultCallback: ActivityResultCallback<ActivityResult>) =
+fun ComponentActivity.startActivityForResult(resultCallback: ActivityResultCallback<ActivityResult>): ActivityResultLauncher<Intent> =
     registerForActivityResult(ActivityResultContracts.StartActivityForResult(), resultCallback)
 
-fun ComponentActivity.requestPermission(resultCallback: ActivityResultCallback<Boolean>) =
+fun ComponentActivity.requestPermission(resultCallback: ActivityResultCallback<Boolean>): ActivityResultLauncher<String> =
     registerForActivityResult(ActivityResultContracts.RequestPermission(), resultCallback)
 
-fun ComponentActivity.createRequest(requestCode: Int, resultCallback: (Int, Intent?) -> Unit) =
-    activityResultRegistry.register("", this, ActivityResultContracts.StartActivityForResult()) {
-
-    }
-
-fun AppCompatActivity.tttI() {
-}
-
-fun <I> ActivityResultLauncher<I>.launch(data: I, requestCode: Int) {
-    launch(data)
-}
+fun ComponentActivity.requestPermissions(resultCallback: ActivityResultCallback<Map<String, Boolean>>): ActivityResultLauncher<Array<String>> =
+    registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions(), resultCallback)

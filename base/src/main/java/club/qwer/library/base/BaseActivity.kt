@@ -24,6 +24,7 @@ abstract class BaseActivity<VM : BaseViewModel, VB : ViewBinding> : AppCompatAct
         initializeView()
     }
 
+    @Suppress("UNCHECKED_CAST")
     private fun getViewModelClazz(): Class<VM> {
         val type = (javaClass.genericSuperclass as? ParameterizedType)?.actualTypeArguments?.get(0)
         return type as Class<VM>
