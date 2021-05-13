@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="icon_tint">@color/white</color>
+
+    <color name="stroke_button">@color/white</color>
+    <color name="solid_button">@color/grey100</color>
+    <color name="button_text">@color/black</color>
+
+
+    <color name="text_color_primary">@color/white</color>
+    <color name="text_color_secondary">@color/grey100</color>
+</resources>

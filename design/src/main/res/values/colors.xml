@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey50">#fafafa</color>
+    <color name="grey100">#f5f5f5</color>
+    <color name="grey100_a30">#4cf5f5f5</color>
+    <color name="grey200">#eeeeee</color>
+    <color name="grey300">#e0e0e0</color>
+    <color name="grey400">#bdbdbd</color>
+    <color name="grey500">#9e9e9e</color>
+    <color name="grey500_a10">#199e9e9e</color>
+    <color name="grey500_a30">#4c9e9e9e</color>
+    <color name="grey600">#757575</color>
+    <color name="grey700">#616161</color>
+    <color name="grey800">#424242</color>
+    <color name="grey900">#212121</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="white_a00">#00ffffff</color>
+    <color name="white_a10">#19ffffff</color>
+    <color name="white_a30">#4dffffff</color>
+    <color name="white_a33">#54ffffff</color>
+    <color name="white_a40">#66ffffff</color>
+    <color name="white_a60">#99ffffff</color>
+    <color name="white_a95">#feffffff</color>
+
+    <color name="black">#202429</color>
+    <color name="pure_black">#000000</color>
+    <color name="pure_black_a00">#00000000</color>
+    <color name="pure_black_a02">#05000000</color>
+    <color name="pure_black_a04">#0a000000</color>
+    <color name="pure_black_a05">#0d000000</color>
+    <color name="pure_black_a06">#0f000000</color>
+    <color name="pure_black_a08">#14000000</color>
+    <color name="pure_black_a10">#19000000</color>
+    <color name="pure_black_a16">#29000000</color>
+    <color name="pure_black_a19">#30000000</color>
+    <color name="pure_black_a20">#33000000</color>
+    <color name="pure_black_a30">#4d000000</color>
+    <color name="pure_black_a33">#55000000</color>
+    <color name="pure_black_a40">#66000000</color>
+    <color name="pure_black_a47">#77000000</color>
+    <color name="pure_black_a50">#80000000</color>
+    <color name="pure_black_a52">#85000000</color>
+    <color name="pure_black_a53">#87000000</color>
+    <color name="pure_black_a57">#94000000</color>
+    <color name="pure_black_a60">#99000000</color>
+    <color name="pure_black_a80">#ce000000</color>
+    <color name="pure_black_a87">#de000000</color>
+    <color name="pure_black_a90">#e5000000</color>
+
+    <color name="icon_tint">@color/black</color>
+
+    <color name="stroke_button">@color/black</color>
+    <color name="solid_button">@color/grey300</color>
+    <color name="button_text">@color/black</color>
+
+    <color name="text_color_primary">@color/black</color>
+    <color name="text_color_secondary">@color/grey700</color>
+</resources>
