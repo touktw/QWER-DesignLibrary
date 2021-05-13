@@ -1,0 +1,3 @@
+rootProject.name = "QWER Design Library"
+include ':app'
+include ':design'
